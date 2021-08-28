@@ -5,7 +5,8 @@ import products from '../products';
 
 import Product from '../components/Product';
 
-const HomeScreen = () => {
+const HomeScreen = ({ match }) => {
+    console.log(":::", match);
     return (
         <>
             <h1>Latest Products</h1>
